@@ -1,0 +1,93 @@
+h1 { color:#2E9F77;
+}  
+
+.header{
+    background-color: #97B1E1;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin-left: 40px;
+}
+h2{ 
+    margin-right: 30px;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.item{
+    border-radius: 40px;
+    background-color: white;
+    width:200px;
+    height: 200px;
+    font-family:'Franklin Gothic Medium';  
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #97D6E1;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: rgb(185, 94, 185);
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-right: 30px
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50% -50%);
+}
+
+.item:hover p{
+opacity: 1;
+}
+
+.item:hover img{
+opacity : 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
